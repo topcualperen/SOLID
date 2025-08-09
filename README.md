@@ -65,4 +65,4 @@ Bu, sınıfların somut uygulamalar yerine soyutlamalara (örneğin arayüzlere)
 -   **Örnekler:** [`solid/dependency-inversion/`](solid/dependency-inversion/)
 
 ## Kaynak
-Deepseek
+Deepseek, Gemini
