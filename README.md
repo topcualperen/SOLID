@@ -63,3 +63,6 @@ Bu, daha büyük arayüzlerin daha küçük, daha spesifik olanlara bölünmesi 
 Bu, sınıfların somut uygulamalar yerine soyutlamalara (örneğin arayüzlere) bağımlı olması gerektiği anlamına gelir. Örnekler `dependency-inversion` klasöründe bulunabilir.
 
 -   **Örnekler:** [`solid/dependency-inversion/`](solid/dependency-inversion/)
+
+## Kaynak
+Deepseek
