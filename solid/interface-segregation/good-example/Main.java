@@ -1,13 +1,13 @@
 
-interface Work {
+interface Workable {
     void work();
 }
 
-interface Eat {
+interface Eatable {
     void eat();
 }
 
-class Human implements Work, Eat {
+class Human implements Workable, Eatable {
     public void work() {
         System.out.println("İnsan çalıştı");
     }
@@ -16,7 +16,7 @@ class Human implements Work, Eat {
     }
 }
 
-class Robot implements Work {
+class Robot implements Workable {
     public void work() {
         System.out.println("Robot çalıştı");
     }
