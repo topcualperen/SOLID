@@ -31,6 +31,11 @@ Bu, bir sınıfın yalnızca bir işi veya sorumluluğu olması gerektiği anlam
 
 Bu, mevcut kodu değiştirmeden yeni işlevler ekleyebilmeniz gerektiği anlamına gelir. Örnekler `open-closed` klasöründe bulunabilir.
 
+**OCP Açısından:**
+"Yeni şekil eklediğimde CalculateArea sınıfını değiştirmek zorunda mıyım?" → Hayır!
+**LSP Açısından:**
+"Bütün Shape implementasyonları birbirinin yerine geçebilir mi?" → Evet!
+
 -   **Örnekler:** [`solid/open-closed/`](solid/open-closed/)
 
 ---
@@ -40,6 +45,12 @@ Bu, mevcut kodu değiştirmeden yeni işlevler ekleyebilmeniz gerektiği anlamı
 > Alt türler, temel türlerinin yerine geçebilir olmalıdır.
 
 Bu, bir üst sınıfın nesnelerinin, programın doğruluğunu etkilemeden bir alt sınıfın nesneleriyle değiştirilebilmesi gerektiği anlamına gelir. Örnekler `liskov-substitution` klasöründe bulunabilir.
+
+LSP - Liskov Substitution Principle:
+
+Odağı: Türetilmiş sınıfların, temel sınıf/interface yerine kullanılabilmesi
+Test ettiği şey: Rectangle ve Square nesnelerini Shape referansıyla kullanabilir miyiz?
+Temel soru: "Bu nesneler birbirlerinin yerine geçebilir mi?"
 
 -   **Örnekler:** [`solid/liskov-substitution/`](solid/liskov-substitution/)
 
