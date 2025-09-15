@@ -37,5 +37,9 @@ class ReportEmployee {
 }
 
 public class Main {
-    
+    public static void main(String[] args) {
+        Employee employee = new Employee("Jason", "54");
+        EmployeeRepository employeeRepository = new EmployeeRepository();
+        employeeRepository.save(employee);
+    }
 }
