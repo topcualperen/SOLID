@@ -33,6 +33,7 @@ Bu, mevcut kodu değiştirmeden yeni işlevler ekleyebilmeniz gerektiği anlamı
 
 **OCP Açısından:**
 "Yeni şekil eklediğimde CalculateArea sınıfını değiştirmek zorunda mıyım?" → Hayır!
+
 **LSP Açısından:**
 "Bütün Shape implementasyonları birbirinin yerine geçebilir mi?" → Evet!
 
