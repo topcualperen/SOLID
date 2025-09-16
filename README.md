@@ -20,8 +20,7 @@ SOLID, yazılım tasarımlarını daha anlaşılır, esnek ve sürdürülebilir 
 
 Bu, bir sınıfın yalnızca bir işi veya sorumluluğu olması gerektiği anlamına gelir. Bu ilkeye uymayan bir örnek `single-responsibility/bad-example` klasöründe, `Main.java` sınıfı içinde bulunabilir. Düzeltilmiş hali ise `single-responsibility/good-example` klasöründeki `Main.java` sınıfındadır.
 
--   **Kötü Örnek:** [`solid/single-responsibility/bad-example/Main.java`](solid/single-responsibility/bad-example/Main.java)
--   **İyi Örnek:** [`solid/single-responsibility/good-example/Main.java`](solid/single-responsibility/good-example/Main.java)
+-   **Örnekler:** [`solid/single-responsibility`](solid/single-responsibility/)
 
 ---
 
